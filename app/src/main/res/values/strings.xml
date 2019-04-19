@@ -2,5 +2,9 @@
     <string name="app_name">Demo Ponno</string>
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
+    <string name="search">খুজুন</string>
+    <string name="shop_name">Azad Store</string>
+    <string name="shop_number">01683292375</string>
+    <string name="sell_text">বিক্রয়ের খাতা</string>
 
 </resources>

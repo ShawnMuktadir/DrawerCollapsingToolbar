@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_bright"
+    android:background="@color/colorPrimary"
     android:gravity="bottom"
     android:orientation="horizontal"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -15,16 +15,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_marginTop="@dimen/dim5"
+        android:orientation="vertical">
 
         <de.hdodenhof.circleimageview.CircleImageView
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/profile_image"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:src="@drawable/ic_action_name"
+            android:layout_width="@dimen/dim100"
+            android:layout_height="@dimen/dim100"
+            android:src="@drawable/person"
+            android:layout_marginTop="@dimen/dim20"
+            android:layout_marginLeft="@dimen/dim10"
+            android:layout_marginStart="@dimen/dim10"
             app:civ_border_width="2dp"
-            app:civ_border_color="#FF000000"/>
+            app:civ_border_color="#236324" />
 
 
         <LinearLayout
@@ -36,25 +40,26 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/dp_8"
-                android:layout_marginBottom="@dimen/dp_8"
-                android:layout_marginLeft="@dimen/dp_8"
-                android:text="@string/app_name"
+                android:layout_marginTop="@dimen/dim8"
+                android:layout_marginBottom="@dimen/dim8"
+                android:layout_marginLeft="@dimen/dim10"
+                android:layout_marginStart="@dimen/dim10"
+                android:text="@string/shop_name"
                 android:textColor="@android:color/background_dark"
-                android:textSize="@dimen/dp_16"
+                android:textSize="@dimen/dim16"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/dp_5"
-                android:layout_marginLeft="@dimen/dp_8"
-                android:layout_marginBottom="@dimen/dp_8"
-                android:text="@string/app_name"
+                android:layout_marginTop="@dimen/dim5"
+                android:layout_marginLeft="@dimen/dim10"
+                android:layout_marginStart="@dimen/dim10"
+                android:layout_marginBottom="@dimen/dim8"
+                android:text="@string/shop_number"
                 android:textColor="@android:color/background_dark"
-                android:textSize="@dimen/dp_16"
-                android:textStyle="normal"
-                android:layout_marginStart="@dimen/dp_8" />
+                android:textSize="@dimen/dim16"
+                android:textStyle="normal" />
 
         </LinearLayout>
 
